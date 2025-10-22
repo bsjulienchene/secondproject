@@ -9,7 +9,7 @@ Ce projet vise à fournir une suite d'outils Docker pour créer des vidéos édu
 ├── docs/               # Documentation générale
 │   └── contexte.md    # Contexte et objectifs du projet
 ├── audio/             # Composant de synthèse vocale
-├── latex/             # Composant de rendu LaTeX (à venir)
+├── latex/             # Composant de rendu LaTeX
 └── video/             # Composant d'assemblage vidéo (à venir)
 ```
 
@@ -20,10 +20,11 @@ Ce projet vise à fournir une suite d'outils Docker pour créer des vidéos édu
 - Support multilingue
 - Documentation dans le dossier `audio/`
 
-### 2. LaTeX (À venir)
+### 2. LaTeX (Terminé)
 - Génération d'images à partir de code LaTeX
 - Support des formules mathématiques
 - Export en PNG/SVG
+- Documentation dans le dossier `latex/`
 
 ### 3. Vidéo (À venir)
 - Assemblage des images et de l'audio
