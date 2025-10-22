@@ -1,0 +1,24 @@
+# Fichiers audio générés
+*.mp3
+*.wav
+*.ogg
+
+# Dossiers et fichiers temporaires
+tmp/
+/tmp/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers d'environnement Python
+venv/
+env/
+.env/
+
+# Fichiers de logs
+*.log
