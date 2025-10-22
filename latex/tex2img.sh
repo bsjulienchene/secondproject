@@ -51,8 +51,8 @@ mkdir -p "$OUTPUT_DIR"
 
 sudo docker build -t latex2img .
 sudo docker run --rm \
-    -v "$INPUT_DIR:/input:ro" \
-    -v "$OUTPUT_DIR:/output:rw" \
+    --mount type=bind,source="$INPUT_DIR",target=/input,readonly \
+    --mount type=bind,source="$OUTPUT_DIR",target=/output \
     latex2img \
     -i "/input/$INPUT_NAME" \
     -o "/output/$OUTPUT_NAME" \
